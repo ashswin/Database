@@ -21,7 +21,6 @@ public class EmployeeFrame extends javax.swing.JFrame {
     Statement stmt = null;
     ResultSetTableModel model = null;
 
-    
     public void openDatabase(){
         url = "jdbc:odbc:Employee";
         
